@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import MyButton from './components/MyButton';
+import MyButtons from './components/MyButtons';
 
 const buttonArray = [
   "A",
@@ -18,11 +18,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        {
-          buttonArray.map((b, i) => {
-            return <MyButton key={i} b={b} />;
-          })
-        }
+        <MyButtons buttonArray={buttonArray} />
       </div>
     );
   }

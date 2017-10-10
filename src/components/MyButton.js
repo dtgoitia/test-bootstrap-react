@@ -1,22 +1,14 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
 
-// const kk = c => {
-//   console.log('this:', c);
-//   console.log('this.props.children:', c.props);
-// };
-
 class MyButton extends React.Component {
   render() {
     const b = this.props.b;
-    return (
-      <Button
-        bsSize="large"
-        onClick={b.func}
-      >
-        {b.name}
-      </Button>
-    )
+    if (this.props.selected === true) {
+      return (<Button bsSize="large" onClick={this.props.updateSelected.bind(null, '')} active>{b}</Button>);
+    } else {
+      return (<Button bsSize="small" onClick={this.props.updateSelected.bind(null, b)}        >{b}</Button>);
+    }
   }
 }
 
