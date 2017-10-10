@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Button } from 'react-bootstrap';
 
 // const kk = c => {
@@ -20,6 +20,4 @@ class MyButton extends React.Component {
   }
 }
 
-module.exports = {
-  MyButton: MyButton
-};
+export default MyButton;

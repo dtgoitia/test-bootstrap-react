@@ -1,6 +1,6 @@
-import React from 'react';
-import {MyButton} from './components/MyButton.js';
 import './App.css';
+import React from 'react';
+import MyButton from './components/MyButton';
 
 const buttonArray = [
   "A",
