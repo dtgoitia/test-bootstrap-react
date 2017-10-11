@@ -3,15 +3,15 @@ import React from 'react';
 import MyButtons from './components/MyButtons';
 
 const buttonArray = [
-  "A",
-  "B",
-  "C",
-  "D",
-  "E",
-  "F",
-  "G",
-  "H",
-  "I"
+  'A',
+  'B',
+  'C',
+  'D',
+  'E',
+  'F',
+  'G',
+  'H',
+  'I'
 ];
 
 class App extends React.Component {
