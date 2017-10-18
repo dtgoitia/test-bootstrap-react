@@ -1,6 +1,7 @@
 import './App.css';
 import React from 'react';
 import MyButtons from './components/MyButtons';
+import MyLayout from './components/MyLayout';
 
 const buttonArray = [
   'A',
@@ -19,6 +20,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <MyButtons buttonArray={buttonArray} />
+        <MyLayout />
       </div>
     );
   }

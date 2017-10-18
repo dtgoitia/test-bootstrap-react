@@ -3,3 +3,12 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.dtg-xs-6 {
+  background-color: blue;
+  border: 1px solid red;
+}
+.dtg-md-8 {
+  background-color: yellow;
+  border: 1px solid red;
+}
