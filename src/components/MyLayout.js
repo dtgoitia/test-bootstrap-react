@@ -6,10 +6,18 @@ class MyLayout extends React.Component {
     return(
       <div>
         hey!
-        <Grid>
-          <Col xs={6} md={4} bsClass='dtg'>Col xs=6 md=8</Col>
-          <Col xs={6} md={4} bsClass='dtg'>Col xs=6 md=4</Col>
-        </Grid>
+        <div className='container'>
+          <div className='col-lg-12 col-sm-4'>aaa</div>
+          <div className='col-lg-12 col-sm-4'>bbb</div>
+          <Col sm={6} lg={3} xl={3} bsClass='dtg'>Col sm-6 lg-3 xl-3</Col>
+          <Col sm={6} lg={3} xl={3} bsClass='dtg'>Col sm-6 lg-3 xl-3</Col>
+          <Col sm={6} lg={3} xl={3} bsClass='dtg'>Col sm-6 lg-3 xl-3</Col>
+          <Col sm={6} lg={3} xl={3} bsClass='dtg'>Col sm-6 lg-3 xl-3</Col>
+          <Col sm={6} lg={3} xl={3} bsClass='dtg'>Col sm-6 lg-3 xl-3</Col>
+          <Col sm={6} lg={3} xl={3} bsClass='dtg'>Col sm-6 lg-3 xl-3</Col>
+          <Col sm={6} lg={3} xl={3} bsClass='dtg'>Col sm-6 lg-3 xl-3</Col>
+          <Col sm={6} lg={3} xl={3} bsClass='dtg'>Col sm-6 lg-3 xl-3</Col>
+        </div>
       </div>
     );
   }
